@@ -1,0 +1,426 @@
+{{ define "main" }}
+<main class="home-main" id="homeMain">
+  <!-- Cinematic Hero / Opening View -->
+  <section class="hero-cinematic" id="heroSection" aria-label="Archive Introduction">
+    <!-- Cinematic Room Environment Background (Behind all hero elements & portrait) -->
+    <div class="hero-environment" id="heroEnvironment" aria-hidden="true">
+      <img src="/images/hero-cinematic-bg.jpg" alt="" class="hero-env-photo" id="heroEnvPhoto" loading="eager" decoding="async">
+
+      <!-- Volumetric Warm Haze Overlay -->
+      <div class="hero-env-volumetric-haze" aria-hidden="true"></div>
+      <!-- Analog Film Grain Overlay -->
+      <div class="hero-env-grain" aria-hidden="true"></div>
+      <!-- Soft Outer Vignette -->
+      <div class="hero-env-vignette" aria-hidden="true"></div>
+    </div>
+
+    <div class="hero-cinematic-inner">
+      <!-- Top Archival Eyebrow / Classification -->
+      <header class="hero-meta-bar">
+        <div class="hero-meta-badge">
+          <span class="archival-pill">
+            <span class="indicator-dot" aria-hidden="true"></span>
+            Archive Record &middot; Private Folio
+          </span>
+        </div>
+        <div class="hero-meta-code" aria-hidden="true">
+          <span>FOLIO 001 // CHRONICLE 2026</span>
+        </div>
+      </header>
+
+      <!-- Main Editorial Asymmetrical Stage -->
+      <div class="hero-editorial-stage">
+        <!-- Dominant Typographic Wing -->
+        <div class="hero-editorial-typography">
+          <h1 class="hero-editorial-title" id="heroTitle">
+            <span class="hero-title-word word-1">Tahsin</span>
+            <span class="hero-title-word word-2">R.</span>
+            <span class="hero-title-word word-3">Ayon</span>
+          </h1>
+          <p class="hero-supporting-line" id="heroSupportingLine">
+            A PERSONAL JOURNAL &middot; AN ARCHIVE OF WHAT I DON&rsquo;T WANT TO FORGET
+          </p>
+
+          <!-- Status & Invitation Bar Grounded in Typographic Wing -->
+          <div class="hero-bottom-bar hero-typography-footer">
+            <div class="hero-invitation-area">
+              <a href="#homeContent" class="hero-enter-link" id="enterArchiveBtn" aria-label="Enter the archive and explore records">
+                <span class="enter-text">ENTER THE ARCHIVE</span>
+                <span class="enter-arrow" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="4" x2="12" y2="18"></line>
+                    <polyline points="18 12 12 18 6 12"></polyline>
+                  </svg>
+                </span>
+              </a>
+            </div>
+
+          </div>
+          <div class="hero-contact-actions" aria-label="Contact and profile links">
+            <a class="hero-contact-link hero-contact-email" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=tahsinayon677%40gmail.com" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg><span>Email me</span>
+            </a>
+            <a class="hero-contact-link hero-contact-github" href="https://github.com/AyonSensei" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.54v-2.1c-3.1.67-3.76-1.32-3.76-1.32-.5-1.28-1.23-1.62-1.23-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.75 2.04 3.2 1.56.1-.72.4-1.2.7-1.48-2.48-.28-5.09-1.24-5.09-5.53 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.43.11-2.98 0 0 .94-.3 3.05 1.15a10.6 10.6 0 0 1 5.55 0c2.12-1.44 3.05-1.15 3.05-1.15.61 1.55.23 2.7.11 2.98.72.78 1.15 1.78 1.15 3 0 4.3-2.61 5.25-5.1 5.53.4.35.76 1.03.76 2.08v3.08c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"></path></svg><span>GitHub</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Prominent Photographic Portrait Wing (Clean Cinematic Integration inside Room) -->
+        <div class="hero-portrait-stage" id="heroPortraitStage">
+          <div class="hero-editorial-script hero-name-script hero-role-script" aria-label="Aspiring Software Developer">
+            <span class="script-line line-1">Aspiring</span>
+            <span class="script-line line-2">Software</span>
+            <span class="script-line line-3">Developer</span>
+          </div>
+
+          <!-- Self-contained Portrait Subject Unit (Portrait + Anchored Floor Shadows) -->
+          <div class="hero-portrait-subject-wrap" id="heroPortraitSubjectWrap">
+            <!-- Ambient warm room glow directly behind the portrait silhouette -->
+            <div class="hero-portrait-ambient-glow" aria-hidden="true"></div>
+            <!-- Warm sunlight bounce from the floor onto the lower stool and feet -->
+            <div class="hero-portrait-floor-bounce" aria-hidden="true"></div>
+
+            <!-- Clean Photographic Element with Grounded Floor Shadow System -->
+            <figure class="hero-portrait-figure" id="heroPortraitFrame">
+              <!-- Physically Grounded Floor Shadows (Accurately Calibrated to Sunlight from Right) -->
+              <svg class="hero-portrait-floor-shadows" viewBox="0 0 1037 1517" preserveAspectRatio="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <!-- Tight crisp occlusion for direct floor contact points -->
+                  <filter id="shadowOcclusionBlur" x="-100%" y="-100%" width="300%" height="300%">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="2.8" />
+                  </filter>
+                  <!-- Medium penumbra for leg cast shadows across floorboards -->
+                  <filter id="shadowLegBlur" x="-100%" y="-100%" width="300%" height="300%">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="6.5" />
+                  </filter>
+                  <!-- Broad soft penumbra for ambient body occlusion -->
+                  <filter id="shadowBodyBlur" x="-100%" y="-100%" width="300%" height="300%">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="16" />
+                  </filter>
+
+                  <!-- Directional cast shadow gradient (Angle matched to right-wall sunlight: 155°) -->
+                  <linearGradient id="legCastGrad" x1="95%" y1="25%" x2="5%" y2="75%">
+                    <stop offset="0%" stop-color="#080402" stop-opacity="0.96" />
+                    <stop offset="25%" stop-color="#0c0603" stop-opacity="0.82" />
+                    <stop offset="60%" stop-color="#130a05" stop-opacity="0.48" />
+                    <stop offset="85%" stop-color="#180c06" stop-opacity="0.18" />
+                    <stop offset="100%" stop-color="#1c0e07" stop-opacity="0.0" />
+                  </linearGradient>
+
+                  <!-- Broad diffuse body shadow gradient -->
+                  <linearGradient id="bodyCastGrad" x1="90%" y1="30%" x2="10%" y2="70%">
+                    <stop offset="0%" stop-color="#060301" stop-opacity="0.85" />
+                    <stop offset="35%" stop-color="#0a0502" stop-opacity="0.62" />
+                    <stop offset="70%" stop-color="#120804" stop-opacity="0.28" />
+                    <stop offset="100%" stop-color="#180c06" stop-opacity="0.0" />
+                  </linearGradient>
+
+                  <!-- Ambient floor pool radial gradient -->
+                  <radialGradient id="ambientFloorPool" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" stop-color="#050201" stop-opacity="0.88" />
+                    <stop offset="50%" stop-color="#090402" stop-opacity="0.55" />
+                    <stop offset="80%" stop-color="#120703" stop-opacity="0.2" />
+                    <stop offset="100%" stop-color="#120703" stop-opacity="0.0" />
+                  </radialGradient>
+
+                  <!-- Stool leg tight contact occlusion radial gradient -->
+                  <radialGradient id="contactLegOcclusion" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" stop-color="#000000" stop-opacity="0.98" />
+                    <stop offset="60%" stop-color="#070301" stop-opacity="0.88" />
+                    <stop offset="85%" stop-color="#100603" stop-opacity="0.35" />
+                    <stop offset="100%" stop-color="#100603" stop-opacity="0.0" />
+                  </radialGradient>
+                </defs>
+
+                <!-- 1. Broad diffuse ambient pool under whole chair & subject base -->
+                <g class="shadow-ambient-layer">
+                  <ellipse cx="560" cy="1475" rx="380" ry="70" fill="url(#ambientFloorPool)" filter="url(#shadowBodyBlur)" />
+                  <!-- Broad torso & trousers shadow projecting to the left across floorboards -->
+                  <path d="M 180 1516 C 60 1516, -80 1545, -220 1555 C -150 1585, 80 1590, 390 1565 C 640 1545, 860 1500, 875 1482 L 850 1445 L 741 1410 L 619 1516 Z"
+                        fill="url(#bodyCastGrad)" filter="url(#shadowBodyBlur)" opacity="0.72" />
+                </g>
+
+                <!-- 2. Directional cast shadows for the 4 chair legs & crossbars (Sunlight from Right Wall) -->
+                <g class="shadow-directional-layer">
+                  <!-- Rear-Left Leg cast shadow (from x=741, y=1410 -> leftwards across Plank 4) -->
+                  <polygon points="733,1408 750,1412 550,1480 515,1473" fill="url(#legCastGrad)" filter="url(#shadowLegBlur)" />
+
+                  <!-- Rear-Right Leg cast shadow (from x=849, y=1445 -> leftwards across Plank 3) -->
+                  <polygon points="841,1443 857,1447 655,1522 620,1515" fill="url(#legCastGrad)" filter="url(#shadowLegBlur)" />
+
+                  <!-- Front-Right Leg cast shadow (from x=868, y=1482 -> leftwards across sunlit Plank 2) -->
+                  <polygon points="859,1480 878,1484 645,1575 595,1565" fill="url(#legCastGrad)" filter="url(#shadowLegBlur)" />
+
+                  <!-- Front-Left Leg cast shadow (from x=619, y=1516 -> leftwards across foreground Plank 1) -->
+                  <polygon points="608,1513 629,1518 385,1610 330,1598" fill="url(#legCastGrad)" filter="url(#shadowLegBlur)" />
+
+                  <!-- Connecting stool rung / footrest crossbar cast shadows on floor -->
+                  <polygon points="741,1410 849,1445 655,1522 515,1473" fill="url(#legCastGrad)" filter="url(#shadowLegBlur)" opacity="0.65" />
+                  <polygon points="619,1516 868,1482 645,1575 330,1598" fill="url(#legCastGrad)" filter="url(#shadowLegBlur)" opacity="0.55" />
+
+                  <!-- Left Shoe cast shadow projecting left -->
+                  <polygon points="220,1516 295,1516 85,1590 25,1580" fill="url(#legCastGrad)" filter="url(#shadowLegBlur)" />
+
+                  <!-- Right Shoe cast shadow projecting left -->
+                  <polygon points="360,1504 430,1504 235,1570 175,1560" fill="url(#legCastGrad)" filter="url(#shadowLegBlur)" />
+                </g>
+
+                <!-- 3. Crisp Ambient Occlusion Contact Patches (Anchoring each leg tip to its plank) -->
+                <g class="shadow-contact-layer">
+                  <!-- Rear-Left Leg contact (Plank 4, y=1410) -->
+                  <ellipse cx="741" cy="1410" rx="16" ry="5.5" fill="url(#contactLegOcclusion)" filter="url(#shadowOcclusionBlur)" />
+                  <ellipse cx="741" cy="1410" rx="10" ry="3" fill="#010101" opacity="0.95" />
+
+                  <!-- Rear-Right Leg contact (Plank 3, y=1445) -->
+                  <ellipse cx="849" cy="1445" rx="16" ry="5.5" fill="url(#contactLegOcclusion)" filter="url(#shadowOcclusionBlur)" />
+                  <ellipse cx="849" cy="1445" rx="10" ry="3" fill="#010101" opacity="0.95" />
+
+                  <!-- Front-Right Leg contact (Plank 2, y=1482) -->
+                  <ellipse cx="868" cy="1482" rx="18" ry="6.5" fill="url(#contactLegOcclusion)" filter="url(#shadowOcclusionBlur)" />
+                  <ellipse cx="868" cy="1482" rx="12" ry="3.5" fill="#010101" opacity="0.95" />
+
+                  <!-- Front-Left Leg contact (Plank 1, y=1516) -->
+                  <ellipse cx="619" cy="1516" rx="20" ry="7" fill="url(#contactLegOcclusion)" filter="url(#shadowOcclusionBlur)" />
+                  <ellipse cx="619" cy="1516" rx="14" ry="4" fill="#010101" opacity="0.95" />
+
+                  <!-- Left Shoe contact (Plank 1, y=1516) -->
+                  <ellipse cx="255" cy="1516" rx="46" ry="9" fill="url(#contactLegOcclusion)" filter="url(#shadowOcclusionBlur)" />
+                  <ellipse cx="255" cy="1516" rx="36" ry="6" fill="#010101" opacity="0.92" />
+
+                  <!-- Right Shoe contact (Plank 2, y=1504) -->
+                  <ellipse cx="395" cy="1504" rx="42" ry="8" fill="url(#contactLegOcclusion)" filter="url(#shadowOcclusionBlur)" />
+                  <ellipse cx="395" cy="1504" rx="32" ry="5" fill="#010101" opacity="0.92" />
+                </g>
+              </svg>
+
+              <img
+                src="/images/portrait.png"
+                alt="Personal photograph of Tahsin R. Ayon"
+                class="hero-portrait-image"
+                id="heroPortraitImg"
+                data-lightbox="true"
+                data-caption="Personal Portrait &middot; Opening Frame"
+              >
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rest of Home Page -->
+  <div class="site-container" id="homeContent">
+    <!-- SECTION 01 — A LITTLE ABOUT ME -->
+    <section class="home-fragments-section" id="fragmentsSection" aria-label="A Little About Me">
+      <div class="fragments-intro-block reveal-on-scroll">
+        <div class="section-eyebrow">A little about me</div>
+        <h2 class="fragments-title">WHAT I&rsquo;M LEARNING &amp; BUILDING.</h2>
+        <div class="fragments-statement-wrapper">
+          <p class="fragments-concept-lead">
+            A few things that shape who I am: what I&rsquo;m learning, what I create, and what I enjoy along the way.
+          </p>
+          <ul class="fragments-cadence-list" aria-label="What matters to me">
+            <li class="cadence-item"><span class="cadence-num">I.</span> Learning something new.</li>
+            <li class="cadence-item"><span class="cadence-num">II.</span> Exploring fresh ideas.</li>
+            <li class="cadence-item"><span class="cadence-num">III.</span> Building useful projects.</li>
+            <li class="cadence-item"><span class="cadence-num">IV.</span> Making room for the things I enjoy.</li>
+            <li class="cadence-item"><span class="cadence-num">V.</span> Keeping the moments worth remembering.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Asymmetrical Fragment Collage (Photographic Journal) -->
+      <div class="fragments-editorial-stage" aria-label="Photographic Fragments">
+        <!-- Fragment 01 (Primary Portrait / High vertical plate) -->
+        <article class="fragment-plate fragment-plate--primary reveal-on-scroll">
+          <div class="fragment-frame">
+            <div class="fragment-mat">
+              <img 
+                src="/images/20260513_213232.jpg" 
+                alt="Night ocean tide under the dark open sky" 
+                class="fragment-image"
+                data-lightbox="true"
+                data-caption="Fragment 01 &middot; Sanctuary &middot; Night Tide and Gentle Waves"
+              >
+            </div>
+            <div class="fragment-label">
+              <span class="fragment-index">FRAG. 01</span>
+              <span class="fragment-descriptor">[SANCTUARY &middot; NIGHT TIDE]</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Fragment 02 (Wide Landscape / Anchored plate) -->
+        <article class="fragment-plate fragment-plate--wide reveal-on-scroll">
+          <div class="fragment-frame">
+            <div class="fragment-mat">
+              <img 
+                src="/images/20260513_060925.jpg" 
+                alt="Morning sunrise over rolling green hills and sea of white clouds" 
+                class="fragment-image"
+                data-lightbox="true"
+                data-caption="Fragment 02 &middot; Journey &middot; Mountain Pass &amp; Cloud Horizon"
+              >
+            </div>
+            <div class="fragment-label">
+              <span class="fragment-index">FRAG. 02</span>
+              <span class="fragment-descriptor">[JOURNEY &middot; MOUNTAIN PASS]</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Fragment 03 (Intimate Detail / Balanced square plate) -->
+        <article class="fragment-plate fragment-plate--detail reveal-on-scroll">
+          <div class="fragment-frame">
+            <div class="fragment-mat">
+              <img 
+                src="/images/IMG-20260725-WA0008.jpg" 
+                alt="Group selfie with close friends and university companions" 
+                class="fragment-image"
+                data-lightbox="true"
+                data-caption="Fragment 03 &middot; Camaraderie &middot; Fellowship &amp; Shared Laughter"
+              >
+            </div>
+            <div class="fragment-label">
+              <span class="fragment-index">FRAG. 03</span>
+              <span class="fragment-descriptor">[CAMARADERIE &middot; CONTACT SHEET]</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Fragment 04 (Quiet Pursuit / Right vertical plate) -->
+        <article class="fragment-plate fragment-plate--pursuit reveal-on-scroll">
+          <div class="fragment-frame">
+            <div class="fragment-mat">
+              <img 
+                src="/images/IMG_20260915_122933.jpg" 
+                alt="Ambient red gaming setup and craft battlestation desk" 
+                class="fragment-image"
+                data-lightbox="true"
+                data-caption="Fragment 04 &middot; Discipline &middot; Midnight Battlestation &amp; Craft Table"
+              >
+            </div>
+            <div class="fragment-label">
+              <span class="fragment-index">FRAG. 04</span>
+              <span class="fragment-descriptor">[DISCIPLINE &middot; CRAFT TABLE]</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION 02 — THE ARCHIVE -->
+    <section class="home-archive-section" id="theArchiveSection" aria-label="The Archive Chapters">
+      <div class="archive-section-header reveal-on-scroll">
+        <div class="section-eyebrow">Index of Volumes</div>
+        <h2 class="archive-section-title">THE ARCHIVE</h2>
+        <p class="archive-section-sub">
+          Five sections covering my profile, education, projects, interests, and visual journal.
+        </p>
+      </div>
+
+      <nav class="archive-chapters-manifest" aria-label="Archive Folio Index">
+        <!-- 01 — ABOUT -->
+        <a href="/about/" class="archive-chapter-entry reveal-on-scroll" id="archiveChapter01">
+          <div class="chapter-leading">
+            <span class="chapter-number">01</span>
+            <div class="chapter-identity">
+              <h3 class="chapter-title">ABOUT</h3>
+              <span class="chapter-phrase">The person behind the archive</span>
+            </div>
+          </div>
+          <div class="chapter-trailing">
+            <div class="chapter-preview-frame" aria-hidden="true">
+              <img src="/images/tahsin-profile.jpg" alt="" class="chapter-preview-image" loading="lazy">
+            </div>
+            <span class="chapter-cue-arrow" aria-hidden="true">&rarr;</span>
+          </div>
+        </a>
+
+        <!-- 02 — JOURNEY -->
+        <a href="/journey/" class="archive-chapter-entry reveal-on-scroll" id="archiveChapter02">
+          <div class="chapter-leading">
+            <span class="chapter-number">02</span>
+            <div class="chapter-identity">
+              <h3 class="chapter-title">EDUCATION</h3>
+              <span class="chapter-phrase">My academic path so far</span>
+            </div>
+          </div>
+          <div class="chapter-trailing">
+            <div class="chapter-preview-frame" aria-hidden="true">
+              <img src="https://www.daffodilvarsity.edu.bd/_next/image?q=75&amp;url=%2Fimages%2Fcampus1.jpg&amp;w=640" alt="" class="chapter-preview-image" loading="lazy">
+            </div>
+            <span class="chapter-cue-arrow" aria-hidden="true">&rarr;</span>
+          </div>
+        </a>
+
+        <!-- 03 — WORK -->
+        <a href="/work/" class="archive-chapter-entry reveal-on-scroll" id="archiveChapter03">
+          <div class="chapter-leading">
+            <span class="chapter-number">03</span>
+            <div class="chapter-identity">
+              <h3 class="chapter-title">PROJECTS</h3>
+              <span class="chapter-phrase">Things I've made</span>
+            </div>
+          </div>
+          <div class="chapter-trailing">
+            <div class="chapter-preview-frame" aria-hidden="true">
+              <img src="/images/projects/vaelgard-gameplay.png" alt="" class="chapter-preview-image" loading="lazy">
+            </div>
+            <span class="chapter-cue-arrow" aria-hidden="true">&rarr;</span>
+          </div>
+        </a>
+
+        <!-- 04 — HOBBIES -->
+        <a href="/hobbies/" class="archive-chapter-entry reveal-on-scroll" id="archiveChapter04">
+          <div class="chapter-leading">
+            <span class="chapter-number">04</span>
+            <div class="chapter-identity">
+              <h3 class="chapter-title">INTERESTS</h3>
+              <span class="chapter-phrase">Interests beyond my studies</span>
+            </div>
+          </div>
+          <div class="chapter-trailing">
+            <div class="chapter-preview-frame" aria-hidden="true">
+              <img src="/images/interests/gaming.jpg" alt="" class="chapter-preview-image" loading="lazy">
+            </div>
+            <span class="chapter-cue-arrow" aria-hidden="true">&rarr;</span>
+          </div>
+        </a>
+
+        <!-- 05 — VISUAL JOURNAL -->
+        <a href="/memories/" class="archive-chapter-entry reveal-on-scroll" id="archiveChapter05">
+          <div class="chapter-leading">
+            <span class="chapter-number">05</span>
+            <div class="chapter-identity">
+              <h3 class="chapter-title">VISUAL JOURNAL</h3>
+              <span class="chapter-phrase">Selected moments and photographs</span>
+            </div>
+          </div>
+          <div class="chapter-trailing">
+            <div class="chapter-preview-frame" aria-hidden="true">
+              <img src="/images/20260513_213232.jpg" alt="" class="chapter-preview-image" loading="lazy">
+            </div>
+            <span class="chapter-cue-arrow" aria-hidden="true">&rarr;</span>
+          </div>
+        </a>
+      </nav>
+    </section>
+
+    <!-- SECTION 03 — FINAL STATEMENT -->
+    <section class="home-final-statement" aria-label="Closing Reflection">
+      <div class="final-statement-card reveal-on-scroll">
+        <div class="final-colophon-divider" aria-hidden="true"></div>
+        <blockquote class="final-statement-quote">
+          &ldquo;Some things disappear simply because we don&rsquo;t keep them.&rdquo;
+        </blockquote>
+        <div class="final-statement-brand">
+          <span class="brand-logotype">TAHSIN R. AYON<span class="crimson-dot">.</span></span>
+          <span class="brand-colophon-meta">PERSONAL PORTFOLIO &middot; EST. 2026</span>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+{{ end }}
