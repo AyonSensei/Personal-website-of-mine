@@ -8153,3 +8153,20 @@ textarea.form-control {
 @media(max-width:860px) { .header-profile { margin-left:.85rem; gap:.4rem; font-size:.72rem; } .header-profile img { width:32px; height:32px; flex-basis:32px; } }
 @media(max-width:860px) { .hero-role-script { align-self:center; margin:0 0 .75rem; font-size:clamp(2rem,7vw,2.6rem); } }
 @media(max-width:640px) { .about-compact-hero { grid-template-columns:1fr; } .about-compact-portrait { grid-row:1; width:min(58vw,230px); justify-self:start; } .education-card { grid-template-columns:88px 1fr; gap:.85rem; } .education-campus-image { width:88px; height:74px; } .hero-contact-link { padding:.65rem .8rem; } .header-inner { padding-inline:.8rem; } .header-profile { margin-left:.5rem; font-size:.68rem; } .header-profile img { width:30px; height:30px; flex-basis:30px; } .nav-wrapper { gap:.5rem; } }
+
+/* Mobile section-to-section scroll guidance */
+@media (max-width: 768px) {
+  html {
+    scroll-snap-type: y proximity;
+    scroll-padding-top: calc(var(--header-height) + 0.5rem);
+  }
+
+  .home-main > .hero-cinematic,
+  .home-main .site-container > .home-fragments-section,
+  .home-main .site-container > .home-archive-section,
+  .home-main .site-container > .home-final-statement,
+  .main-wrapper main > section {
+    scroll-snap-align: start;
+    scroll-margin-top: calc(var(--header-height) + 0.5rem);
+  }
+}
